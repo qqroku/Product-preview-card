@@ -55,5 +55,5 @@ html, css, flex, grid, image responsiveness and responsive layouts
 
 ## Author
 
-- Website - [qqroku](https://github.com/qqroku)
+- Github - [qqroku](https://github.com/qqroku)
 - Frontend Mentor - [@qqroku](https://www.frontendmentor.io/profile/qqroku)
