@@ -138,8 +138,10 @@ body {
   background-color: hsl(158, 36%, 37%);
 }
 
-.productBtn i {
+.productBtn img {
+  margin-bottom: -1px;
   margin-right: 6px;
+  width: 12px;
 }
 
 .attribution {
