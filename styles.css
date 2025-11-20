@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.productPreview_card {
+  background-color: white;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.left .atDesktop {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right {
+  display: block;
+  /* border: 1px solid black; */
+  width: 100%;
+  padding: 30px;
+}
+
+.productCategory,
+.productName,
+.productDetails,
+.productPrice p {
+  margin: 0;
+}
+
+.right .productCategory {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: hsl(228, 12%, 48%);
+}
+
+.right .productName {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.right .productDetails {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin-bottom: 18px;
+  color: hsl(228, 12%, 48%);
+}
+
+.right .productPrice {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.productPrice .productDiscounted {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.productPrice .productOriginal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+.right .productBtn {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border: none;
+  padding: 15px 0px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.productBtn:hover {
+  background-color: hsl(158, 42%, 18%);
+}
+
+.productBtn:active {
+  background-color: hsl(158, 36%, 37%);
+}
+
+.productBtn i {
+  margin-right: 6px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
