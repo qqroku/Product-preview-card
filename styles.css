@@ -144,15 +144,6 @@ body {
   width: 12px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (max-width: 550px) {
   body {
     padding: 50px 10px;
@@ -191,4 +182,14 @@ body {
   .right .productName {
     font-size: 1.9rem;
   }
+}
+
+.attribution {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.65rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
