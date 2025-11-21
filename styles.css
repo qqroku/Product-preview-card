@@ -90,7 +90,7 @@ body {
 
 .right .productDetails {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 1.4;
   margin-bottom: 18px;
   color: hsl(228, 12%, 48%);
@@ -185,6 +185,10 @@ body {
 
   .right .productName {
     font-size: 1.9rem;
+  }
+
+  .right .productDetails {
+    font-size: 0.9rem;
   }
 }
 
