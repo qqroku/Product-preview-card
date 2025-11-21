@@ -28,7 +28,9 @@ body {
 }
 
 .left {
-  width: 50%;
+  /* width: 50%; */
+  flex: 1;
+  min-width: 0;
 }
 
 /* .left .atDesktop {
@@ -56,7 +58,9 @@ body {
 .right {
   /* display: block; */
   /* border: 1px solid black; */
-  width: 50%;
+  /* width: 50%; */
+  flex: 1;
+  min-width: 0;
   padding: 30px;
 }
 
@@ -79,7 +83,7 @@ body {
 .right .productName {
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.1rem;
   line-height: 1;
   margin-bottom: 20px;
 }
